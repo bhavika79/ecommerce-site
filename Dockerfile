@@ -1,3 +1,3 @@
 FROM centos:latest
-RUN YUM  install net-tools
+RUN yum install net-tools
 CMD ifconfig enp0s3
