@@ -1,3 +1,3 @@
-FROM centos:latest
-RUN yum  -y install net-tools 
+From php:7.0-apache
+COPY . /var/www/html
 
